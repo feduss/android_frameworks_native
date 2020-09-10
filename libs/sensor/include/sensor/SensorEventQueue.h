@@ -24,7 +24,7 @@
 #include <utils/Timers.h>
 #include <utils/Mutex.h>
 
-#include <sensor/BitTube.h>
+#include "BitTube.h"
 
 // ----------------------------------------------------------------------------
 #define WAKE_UP_SENSOR_EVENT_NEEDS_ACK (1U << 31)

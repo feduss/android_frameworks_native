@@ -19,11 +19,24 @@
 #define II420_COLOR_CONVERTER_H
 
 #include <stdint.h>
-#include <android/rect.h>
 
 #ifdef __cplusplus
 extern "C" {
 #endif
+	
+typedef struct ARect {
+#ifdef __cplusplus
+    typedef int32_t value_type;
+#endif
+    /** left position */
+    int32_t left;
+    /** top position */
+    int32_t top;
+    /** left position */
+    int32_t right;
+    /** bottom position */
+    int32_t bottom;
+} ARect;
 
 typedef struct II420ColorConverter {
 

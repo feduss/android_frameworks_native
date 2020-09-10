@@ -32,7 +32,7 @@
 #include <utils/Vector.h>
 #include <utils/String8.h>
 
-#include <sensor/SensorEventQueue.h>
+#include "/media/federico/6cc18d04-f36f-4bc9-9d09-8353293c8444/umts_spyder/android/lineage/frameworks/native/libs/sensor/include/sensor/SensorEventQueue.h"
 
 // ----------------------------------------------------------------------------
 // Concrete types for the NDK
